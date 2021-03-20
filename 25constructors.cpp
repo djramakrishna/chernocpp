@@ -14,6 +14,11 @@ public:
         Y = 0.0f;
     }
     */
+    
+    //Constructor name must be the same name as that of the class 
+    //Even though if you dont create a constructor there is always one created but it does nothing 
+    //But you can always delet it by doing classname() = delete; inside the class and under public
+    
     Entity(float x, float y)
     {   
         X = x;

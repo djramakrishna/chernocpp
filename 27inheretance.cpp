@@ -19,6 +19,8 @@ public:
 //Player has everything that Entity has and possibly more 
 //Player is subclass and Entity is base class 
 
+//Player has everything that entity has and maybe possibily more 
+
 class Player : public Entity //anything that is not private in Entity is actually accessible by Player class 
 {
 public:
