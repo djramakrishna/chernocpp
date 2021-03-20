@@ -1,6 +1,7 @@
 //Ref have to reference an already existing variables, they are not new variables, dont occupy memory
 //Once the ref are declared and assigned, they cannot be changed 
 //pointers can be set to null, but not reference 
+//They just make code look better, and with pointers you can do a lot more compared to references. 
 
 #include <iostream>
 
