@@ -1,12 +1,16 @@
+//Virtual functions allow us to override methods in subclasses  
+
 #include <iostream>
 #include <string>
 
+//Base class 
 class Entity
 {
 public:
     std::string GetName() { return "Entity"; }
 };
 
+//Sub class of entity class
 class Player : public Entity
 {
 private:
@@ -20,7 +24,7 @@ public:
 
 
 int main()
-{
+ {
     Entity* e = new Entity();
     std::cout << e->GetName() << std::endl;
 
