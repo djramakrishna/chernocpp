@@ -1,2 +1,6 @@
- auto lambda = [&a](int value){ std::cout << "Value :" << a << std::endl; };
-    auto lambda = [=](int value) mutable { a = 5; std::cout << "Value :" << value << std::endl; };
+    // for ( auto kv : map )
+    // {
+    //     auto& key = kv.first;
+    //     auto& value = kv.second;
+    //     std::cout << key << " = " << value << std::endl;
+    // }
