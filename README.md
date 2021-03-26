@@ -1,2 +1,2 @@
 # chernocpp
-Contains the files related to cherno c++ youtube series
+Contains the files related to [https://www.youtube.com/c/TheChernoProject] cherno c++ youtube series
