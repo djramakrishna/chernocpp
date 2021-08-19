@@ -1,7 +1,7 @@
 // continue, break, return
-//contine says, to go back to loop starting if there is one 
-//break - breaks out of the loop completely 
-//return - it has to return something and breaks out of the function or loop
+// contine says, to go back to loop starting if there is one 
+// break - breaks out of the loop completely 
+// return - it has to return something and breaks out of the function or loop
 
 #include <iostream>
 

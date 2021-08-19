@@ -1,8 +1,8 @@
-//Pointer is an integer or a number or integer that holds a memory address that specifies address of specific byte of memory is 
-//Everything in programming is read and write into memory 
-//We can use a type of pointer, means that data at that address is presumed to be the type we give it, (pointer is just an integer)
-//Types are meaningless, a pointer for all types is just a memory address 
-//Type of a pointer is just to make our life simpler, saying the data at that address is presumed to be the type we give it
+// Pointer is an integer or a number or integer that holds a memory address that specifies address of specific byte of memory is 
+// Everything in programming is read and write into memory 
+// We can use a type of pointer, means that data at that address is presumed to be the type we give it, (pointer is just an integer)
+// Types are meaningless, a pointer for all types is just a memory address 
+// Type of a pointer is just to make our life simpler, saying the data at that address is presumed to be the type we give it
 
 // Pointers themselves are just variables, these variables also can be stored in memory, this leads to double pointer
 

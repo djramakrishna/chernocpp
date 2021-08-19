@@ -1,13 +1,13 @@
-//Class is by default a private
-//Struct by default is public
-//That's the only difference between a struct and a class 
+// Class is by default a private
+// Struct by default is public
+// That's the only difference between a struct and a class 
 
-//C has struct but not classes so there would be no backward compatibility if struct were removed in cpp
-//At the end of the day it depends on your coding style what to choose
+// C has struct but not classes so there would be no backward compatibility if struct were removed in cpp
+// At the end of the day it depends on your coding style what to choose
 
-//Represent just some data - use struct 
-//Have got some entire functionality, along with data - use class 
-//you can use struct wherever you can use class 
+// Represent just some data - use struct 
+// Have got some entire functionality, along with data - use class 
+// you can use struct wherever you can use class 
 
 #include <iostream>
 
@@ -26,7 +26,6 @@ public:
     }
 };
 
-
 struct vec2
 {
     float x, y;
@@ -39,7 +38,7 @@ struct vec2
 
 int main()
 {   
-    //Variables that are made from class type are called objects and new obj variable is called an instance 
+    // Variables that are made from class type are called objects and new obj variable is called an instance 
     Player player1;
     player1.x = 5;
     player1.y  = 10;

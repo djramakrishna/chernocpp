@@ -7,11 +7,11 @@ int main()
 
     if (comparisionResult)
     {
-        std::cout << "Hello world" << std::endl;
+        std::cout << "Hello world in beginning" << std::endl;
     }
 
-    const char* ptr = nullptr;
-    //const char* ptr = "hello";
+    //const char* ptr = nullptr;
+    const char* ptr = "hello";
     if (ptr)
         std::cout << "Hello world" << std::endl;
     else 

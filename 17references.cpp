@@ -22,11 +22,11 @@ void Increment2(int& value)
 int main()
 {
 	int a = 5;
-	int* b = &a;	// & is part of of the type(int)
-	int& ref = a; 	// essentially creating a alias, if compiled we dont have two variables only a exists not ref
-	ref = 2;
+	int* b = &a;					// & is part of of the type(int)
+	int& ref = a; 					// essentially creating a alias, if compiled we dont have two variables only a exists not ref
+	ref = 2;						// changing the ref to 2, changes the value of a itself
 	std::cout << a << std::endl;
-	std::cout << ref << std::endl;
+	std::cout << ref << std::endl;	// when u change the ref that it points to it changes the variable value itself i.e j = i 
 
 	int c = 7;
 	Increment(&c);

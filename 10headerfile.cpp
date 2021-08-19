@@ -1,7 +1,8 @@
 #include <iostream>
-#pragma once //means a header gaurds
-// headers gaurd makes sure that a fucntion signature is present only once in a file, rather than getting multiple times due to the header files which might contain
-//the same function signature 
+#pragma once 
+// means a header gaurds
+// headers gaurd makes sure that a function signature is present only once in a file, rather than getting multiple times due to the header files which might contain
+// the same function signature 
 
 void Log(const char* message)
 {

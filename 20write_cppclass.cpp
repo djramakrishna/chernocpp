@@ -4,14 +4,13 @@ class Log
 {
 
 public:
-
-    const int LogLevelWarning = 1;
     const int LogLevelError = 0;
+    const int LogLevelWarning = 1;
     const int LogLevelInfo = 2;
 
 private:
 
-    int m_LogLevel = LogLevelInfo; //Member log level to point out it's private variable. 
+    int m_LogLevel = LogLevelInfo; // Member log level to point out it's private variable. 
 
 public:
 
@@ -19,7 +18,7 @@ public:
     {
         m_LogLevel = level;
     }
-
+    
     void Error(const char* message)
     {   
         if (m_LogLevel >= LogLevelError)
