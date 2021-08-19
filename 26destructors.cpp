@@ -1,5 +1,9 @@
-//Runs when an object is destroyed
-//when unitialize anything or clean any memory used 
+// runs when an object is destroyed
+// used when we unitialize anything or clean any memory used 
+// when the scope ends, the object gets deleted
+
+// good example is heap allocated objects manually,
+// we probably want to clean that memory on heap after it's used 
 
 #include <iostream>
 

@@ -1,4 +1,4 @@
-//Virtual functions allow us to override methods in subclasses  
+// Virtual functions allow us to override methods in subclasses  
 
 #include <iostream>
 #include <string>
