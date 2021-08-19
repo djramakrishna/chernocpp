@@ -1,13 +1,15 @@
 #include <iostream>
 
-//its just a way to name values, end of the day it's just an integer and makes code much cleaner
-
-//Essentially used when we use a set of values numberically, enums are used
+// its just a way to name values, end of the day it's just an integer and makes code much cleaner
+// essentially used when we use a set of values numberically, enums are used
+// they basically group the integers
+// by default they are 32 bit integers but we can use unsigned char to use less memory (8 bit integer)
 
 /*
 enum example : unsigned char
 {
-    A = 5, B, C //b is taken as 6 and c is taken as 7
+    A = 5, B, C // b is taken as 6 and c is taken as 7, if nothing is given they take A = 0, A = 1, A = 2
+
 };
 
 int a = 0;
@@ -37,7 +39,7 @@ public:
 
 private:
 
-    Level m_LogLevel = LevelInfo; //Member log level to point out it's private variable. 
+    Level m_LogLevel = LevelInfo; // member log level to point out it's private variable. 
 
 public:
 
