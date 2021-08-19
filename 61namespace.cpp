@@ -50,12 +50,13 @@ namespace orange
 
 int main()
 {   
-    //using namespace std; //Confines the scope of namespace std
-    using apple::print;
-    namespace b = apple;  //Using aliases for namespaces 
-    
-    print("Hello");
-    apple::print_again();
+    // using namespace std;         // confines the scope of namespace std
+    // using namespace apple;       // print() and print_again() comes into this scope but in order to use only print, use the namespace in the below manne
+    using apple::print;             // only print comes in this scope, not print_again() 
 
+    print("Hello");                 // as print is given in this scope by line 55, we dont need to specify the namespace again
+    apple::print_again();           // but we need to use namespace for print_again() as it's not in this scope
+
+    namespace b = apple;            // using aliases for namespaces, this is very useful in case of nested namespaces
     b::print("cherno!");
 }
