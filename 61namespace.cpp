@@ -6,7 +6,7 @@
 
 // the primary purpose of the namespaces is to avoid naming conflicts, that's why they exist, nothing more
 // we might want to call symbols with same names in different contexts 
-// never use namespaces in header files generally 
+// NEVER use namespaces in HEADER files generally 
 // C doesn't have namespaces
 
 namespace apple
