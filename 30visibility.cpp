@@ -1,13 +1,16 @@
 // Purely exists in any language to help you write better code and organise 
 // Keywords in c++ - private, public and protected 
 
+#include <iostream>
+#include <string>
+
 class Entity
 {
 private:
-    int X, Y;
+    int X, Y;       // only entity class or friends can access stuff under private
 
 protected:
-    int a, b;
+    int a, b;       // entity class and all subclasses along the heirarchy can access stuff under protected
 
 public:
     Entity()
@@ -21,10 +24,9 @@ class Player : public Entity
 public:
     Player()
     {
-        //Cant access here as X is private in Entity class 
+        // Cant access here as X is private in Entity class 
         a = 2; // Can access a as it is protected and subclasses can access protected 
     }
-
 };
 
 int main()
