@@ -1,6 +1,6 @@
-//Static in local scope
-//Two kinds of consideration when we declare the variable
-//Lifetime of the variable and scope of the variable
+// static in local scope
+// two kinds of consideration need to be considered when we declare the variable
+// lifetime of the variable and scope of the variable
 
 /*
     Static local variable allows us to declare a variable that has a lifetime of the entire program

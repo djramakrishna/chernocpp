@@ -4,8 +4,10 @@
 #include <algorithm>
 #include <functional>
 
-// Primary purpose of the namespaces in to avoid naming conflicts 
-// Never use namespaces in header files generally 
+// the primary purpose of the namespaces is to avoid naming conflicts, that's why they exist, nothing more
+// we might want to call symbols with same names in different contexts 
+// never use namespaces in header files generally 
+// C doesn't have namespaces
 
 namespace apple
 {    
@@ -18,6 +20,20 @@ namespace apple
 
     }
 } 
+
+/*----------------------------------------------------------------
+We can use nested namespaces aswell
+
+namespace apple{
+    namespace functions{    
+
+        void print(const std::string& text)
+        {
+            std::cout << text << std::endl;
+        }
+    }
+} 
+*/
 
 namespace orange
 {
