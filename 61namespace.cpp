@@ -33,6 +33,17 @@ namespace apple{
         }
     }
 } 
+
+the above can also be done as follows, but only in newer compilers : 
+
+namespace apple::functions{  
+
+    void print(const std::string& text)
+    {
+        std::cout << text << std::endl;
+    }
+    
+} 
 */
 
 namespace orange

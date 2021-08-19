@@ -7,12 +7,15 @@
     however its scope is inside that function/if statement
 */
 
-// Not much diff in static in class scope vs static in function 
-
+// not much diff in static in class scope vs static in function 
+// the one in class scope, can be accessed by anything in the class
+// the one in func scope, can be anything inside that func
+ 
 #include <iostream>
 
 void Function()
-{
+{   
+    // int i = 0;
     static int i = 0; 
     i++;
     std::cout << i << std::endl;
